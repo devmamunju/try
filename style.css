@@ -1,0 +1,293 @@
+*{
+margin: 0;
+padding:0;
+
+}
+
+.container{
+
+width: 1100px;
+margin: 0 auto;
+
+}
+
+.row{
+    margin-top: 80px;
+}
+
+
+
+section{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+
+/***********box 1*****************/
+
+.first-section .box1{
+
+    height: 150px;
+    width: 720px;
+    background-color: green;
+    position: relative;
+    z-index: -1;
+    
+
+}
+
+
+
+.first-section .box2{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: green;
+    margin-bottom: 5px;
+    position: absolute;
+   
+   top: 50%;
+
+   transform: translate(-50% , -50%);
+   z-index: -1;
+
+}
+
+.first-section .round1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    border: 7px solid white;
+
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: auto;
+   
+    z-index: -1;
+}
+
+.first-section .box1{ position: relative;
+
+
+}
+
+
+/*************box 1 end***********/
+
+.second-section .box1{
+
+
+    height: 150px;
+    width: 720px;
+    background-color:orange;
+    position: relative;
+    z-index: -1;
+
+}
+
+
+
+.second-section .box2{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-bottom: 5px;
+    position: absolute;
+   
+   top: 50%;
+
+   transform: translate(-50% , -50%);
+   z-index: -1;
+
+}
+
+.second-section .round1 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    border: 7px solid white;
+   
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: auto;
+    z-index: -1;
+}
+
+.second-section .box1{ 
+    
+    position: relative;
+
+
+}
+
+/*************box 2 end***********/
+
+.third-section .box1{
+
+
+    height: 150px;
+    width: 720px;
+    background-color:blue;
+    position: relative;
+    z-index: -1;
+    
+
+}
+
+
+
+.third-section .box2{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-bottom: 5px;
+    position: absolute;
+   
+   top: 50%;
+
+   transform: translate(-50% , -50%);
+   z-index: -1;
+
+}
+
+.third-section .round1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    border: 7px solid white;
+  
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: auto;
+    z-index: -1;
+}
+
+.third-section .box1{ 
+    
+    position: relative;
+
+
+}
+
+
+/***************end 3rd********************/
+
+.fourth-section .box1{
+
+
+    height: 150px;
+    width: 720px;
+    background-color:brown;
+    position: relative;
+    z-index: -1;
+    
+
+}
+.fourth-section .box2{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: brown;
+    margin-bottom: 5px;
+    position: absolute;
+   
+   top: 50%;
+
+   transform: translate(-50% , -50%);
+   z-index: -1;
+   
+
+}
+
+.fourth-section .round1 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    border: 7px solid white;
+   
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    padding: auto;
+    z-index: 1;
+ 
+}
+
+.fourth-section .box1{ 
+    
+    position: relative;
+
+
+}
+
+
+/***************************/
+.fourth-section .paper {
+    width: 680px;
+    height: 720px;
+    background-color: white;
+    position: absolute;
+    top: -120%;
+    left: 77%;
+    transform: translate(-556px, -390px);
+    opacity: 85%;
+    z-index: -1;
+}
+
+
+
+.fourth-section .round2 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    border: 7px solid white;
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    padding: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-541% ,-51%);
+}
+
+
+.fourth-section{
+    position: relative;
+}
+
+
+.box1{
+
+
+    position: relative;
+}
